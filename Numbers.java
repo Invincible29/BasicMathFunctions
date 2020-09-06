@@ -40,7 +40,7 @@ public class Numbers
         return input.length-evenCount(input);*/  /*
            
     }*/
-    public int isPrime(int input)
+    public int isPrime(int input)//choose its return type as 'int' , since it checks if the 'input' is one, aprt from checking it for being a prime
     {   int output=1;
         if(input==1||input==0)//Prime numbers are concerned only with 'NATURAL NUMBERS' but still...
            output=-1;
